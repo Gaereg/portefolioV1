@@ -1,0 +1,39 @@
+.focus{
+	background-color: #9D9D9D;
+}
+
+#results div:hover{
+	background-color: #9D9D9D;
+}
+
+#results div{
+	padding-left: 3px;
+}
+
+#results{
+	width: 174px;
+	height: auto;
+	border: 1px  #9D9D9D solid;
+	margin: auto;
+}
+
+#txt{
+	padding-left: 3px;
+}
+
+#autocompletion{
+	background: url(../image/body.png);
+	height : 180px;
+	width: 700px;
+	padding-top: 20px;
+}
+
+#autocompletion input{
+	display: block;
+	margin: auto;
+}
+
+#autocompletion h3{
+	margin-left: 23px;
+	margin-bottom: 10px
+}

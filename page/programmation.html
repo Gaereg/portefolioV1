@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+	<head>
+		<!--Meta-->
+		<meta charset="UTF-8">
+		<meta name="author" content="Mathieu LARRIEU">
+		<meta name="description" content="Portefolio">
+		<!--link-->
+		<link rel="stylesheet" href="../style/all.css">
+		<link rel="stylesheet" href="../style/prog.css">
+		<link rel="stylesheet" href="../style/plusmoins.css">
+		<link rel="stylesheet" href="../style/pendu.css">
+		<link rel="stylesheet" href="../style/conversion.css">
+		<link rel="stylesheet" href="../style/autocompletion.css">
+		
+		<script src="../style/autocompletion.js"></script>
+		<script src="../style/plusmoins.js"></script>
+		<script src="../style/pendu.js"></script>
+		<script src="../style/canvas.js"></script>
+		<script src="../style/conversion.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Jura:400' rel='stylesheet' type='text/css'>
+		<!--Titre-->
+		<title>Mathieu Larrieu</title>
+	</head>	
+	
+	<body onload="globale()">
+			<header>
+				<div id="name">
+					<div id="nameAlign">
+						<a href="../index.html"><h1>Mathieu Larrieu</h1></a>
+						<h3>Intégrateur Web en Formation</h3>
+					</div>
+				</div>
+				
+				<nav>
+					<ul id=navVerti>
+						<li class="navP"><a href="programmation.html">Programmation</a></li>
+						<li class="navS"><a href="infographie.html">Infographie</a></li>
+						<li class="navS"><a href="modelisation.html">Modélisation</a></li>
+						<li class="navS"><a href="../index.html">Home</a></li>
+					</ul>
+					
+					<ul id="navHori">
+						<li class="navS2"><a href="contact.html">Contact</a></li>
+						<li class="navS2"><a href="cv.html">CV</a></li>
+					</ul>
+				</nav> 
+			</header>
+			
+			<main id="mainProg">
+				<h1 class="titre"> Programmation</h1>
+				
+				<div class="progline">
+					<div id="plusmoins">
+						<header id="hplus">
+							<h1>Jeu du plus ou moins</h1>
+						</header>
+		
+						<div id="expli">
+							<p>Plus ou moins, est un jeu très simple. Vous devez trouver un nombre choisi aléatoirement entre 0 et 100. A chaque proposition de votre part l'ordinateur vous indiquera si le nombre a trouver est supérieur ou inférieur à votre proposition.<br/>
+								De plus vous jouez contre une intelligence artificielle.<br/>
+								Que le plus rapide gagne
+							</p>
+							<h3 id="aide">Tape un nombre entre 0 et 100</h3>
+						</div>
+			
+						<form method="POST" onsubmit="verif();return false"><!--empèche la page de ce recharger en appuyant sur enter --> 
+							Votre réponse : <input class="zonetext" type="text" name="reponse" id="reponse" onKeyPress="if(event.keyCode == 13) verif();"autocomplete="off"/><!-- autocomplete="off" bloque la sugestion de réponse -->
+							<input type="button" value="soumettre" onclick="verif()"/>
+							<input type="button" onclick='window.location.reload(false)' value="Nouvelle partie"/>
+						</form>
+
+						<div id="message"></div>
+			
+						<div id="historique">Historique<br/></div>
+			
+					</div>
+					<div class="progdescript">
+						<h2>Jeu du plus ou moins</h2>
+						<p>Petit jeu au principe très simple, un nombre aléatoire est tiré et l'utilisateur doit le trouver en un minimum d'essai.
+						A chaque essai le programme indique si l'essai est supérieur ou inférieur au nombre à trouver.
+						</p>
+						</br>
+						<p>Une IA a été intégrée afin d'enrichir le jeu.</p>
+						</br></br></br>
+						<p class="code">Codé en HTML/CSS/JS</p>
+					</div>
+				</div>
+				
+				<div class="progline2">
+					<div id="pendu">
+						<header id="hpendu">
+							<h1>Quelle est le nom de la famille possédant l'Illustration?</h1>
+						</header>
+			
+						<section id="entrer">
+							<form method="POST" onsubmit="return false">
+								<label for="lettre">Entrez une lettre :</label>
+								<input type="text" name="lettre" id="lettre" maxlength="1" onKeyPress="if(event.keyCode == 13) verif2();" autocomplete="off" required/><!--zone de saisie-->
+								<input id="bouton" type="button"  value="Ok" onclick="verif2()"/> <!--bouton valider-->
+							</form>	
+		
+							<table id="tableau">
+							</table>
+							<div id="texte"></div>
+				
+							<canvas id="canvas" width="313" height="400">
+								<p>Désolé, votre navigateur ne supporte pas Canvas. Mettez-vous à jour</p>
+							</canvas>
+							<div id="perdu">
+								<p>Perdu</p> 
+								<button onclick="window.location.reload(false)">Réessayer</button>
+							</div>
+							<div id="gagne">
+								<p>Félicitation</p>
+								<button onclick="window.location.reload(false)">Réessayer</button>
+							</div>
+						</section>
+					</div>
+						
+					<div class="progdescript">
+						<h2>Jeu du pendu</h2>
+						<p>Jeu du pendu fait dans le cadre du projet tuteuré. La lettre rentrée par l'utilisateur est comparée aux lettres à trouver, si la lettre correspond elle apparaît dans le mot à trouver, sinon une partie du pendu est tracée.
+						</p>
+						</br></br></br>
+						<p class="code">Codé en HTML/CSS/JS/Canvas</p>
+					</div>
+				</div>
+				<div class="progline3">
+					<div id='conversion'>
+						<form onsubmit="return false">
+							<h3 id="txt2">Entrez un nombre entier entre 0 et 999 pour le convertir en toute lettre </h3>
+							<input type=text name="number" id="number" onKeyPress="if(event.keyCode == 13) init();" autocomplete="off"/>
+							<input type="button" value="OK" onclick="init();" /> 
+							<div id='convers'></div>
+						</form>
+					</div>
+
+					<div class="progdescript">
+						<h2>En toute lettre</h2>
+						<p>Petit script qui converti les nombres en toute lettres en respectant les règles d'écriture française.
+						</p>
+						</br>
+						<p>Réalisé comme exercice pour le cour <a href="https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript"> JS </a> d'OpenClassRoom.</p>
+						</br></br></br>
+						<p class="code">Codé en HTML/CSS/JS</p>
+					</div>
+				</div>
+
+				<!--<div id="progline4">
+					<div id="autocompletion">
+						<h3>Entrez un nom de ville française pour le chercher dans la base de donnée</h3>
+						<input type="text" autocomplete="off" name="txt" id="txt"/>
+						<div id="results"></div>
+					</div>
+					<div class="progdescript">
+						<h2>Proposition de résultat</h2>
+						<p>Petit script qui propose plusieurs résultat pour des noms de ville française
+						</p>
+						</br>
+						<p>Réalisé comme exercice pour le cour <a href="https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript"> JS </a> d'OpenClassRoom.</p>
+						</br></br></br>
+						<p class="code">Codé en HTML/CSS/JS/Ajax/PHP</p>
+					</div>
+				</div>-->
+			</main>
+			
+			<footer>
+				<p>&copy; 2014 by Mathieu Larrieu</p>
+			</footer>
+		
+			
+	</body>
+</html>

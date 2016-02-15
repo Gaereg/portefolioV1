@@ -1,0 +1,63 @@
+#mail{
+	width: 322px;
+	height: 67px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#mail p{
+	margin-left: 3px;
+	color: white;
+	
+}
+
+form{
+	margin-top: 50px;
+	width: 315px;
+	margin: auto;
+}
+
+p{
+	color: white;
+	margin-bottom: 10px;
+}
+
+.text{
+	color: white;
+	background-color: rgba(255,255,255,.15);
+	width: 350px;
+	height: 30px;
+	border-radius: 7px;
+	border: none;
+	margin-bottom: 15px;
+	padding-left: 6px;
+	box-shadow: 1px 1px 3px black;
+	outline: none;
+}
+
+.textar{
+	color: white;
+	background-color: rgba(255,255,255,.15);
+	width: 350px;
+	height: 100px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 15px;
+	box-shadow: 1px 1px 3px black;
+	padding-left: 6px;
+	outline: none;
+}
+
+.valide{
+	border-radius: 10px;
+	width: 90px;
+	height: 30px;
+	font-family: 'Jura', sans-serif;
+	font-size: 100%;
+}
+
+#mailgo{
+	text-align: center;
+	font-weight: 400;
+	color: white;
+}

@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+body{
+	margin: auto;
+	width: 1000px;
+	min-height : 800px;
+	background: url(../image/fond.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	font-family: 'Jura', sans-serif;
+}
+
+/* Header */
+header{
+	width: 1000px;
+	height: 180px;
+}
+
+#name{
+	line-height: 180px;
+	width: 300px;
+}
+
+#nameAlign{
+	vertical-align:middle;
+	display:inline-block;
+	line-height:normal; 
+	text-align:left; 
+	margin-left: 10px;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header h1{
+	color: white;
+	font-weight: 400;
+}
+
+header h3{
+	color: #AFAFAF;
+	font-weight: 400;
+}
+
+	/* Menu */
+nav{
+	width: 330px;
+	height: 180px;
+	position: absolute;
+	left: 59%;
+	top: 0px;
+}
+		/* Menu Vertical */
+
+#navVerti{
+	float: left;
+	width: 180px;
+	text-align: center;
+	transform:rotate(90deg) translate( -18%,-10%);
+	list-style-type: none;
+}
+
+#navVerti a{
+	text-decoration:none;
+}
+
+.navP{
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	margin: 5px;
+	background-color: #035FA2;
+}
+
+.navP a{
+	display: block;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	margin: 5px;
+	color: white;
+}
+
+.navS {
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	margin: 5px;
+	background-color: #0088CB;
+	
+}
+
+.navS a{
+	width: 130px;
+	height: 50px;
+	display: block;
+	margin: 5px;
+	background-color: #0088CB;
+	
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;	
+}
+
+.navS a:hover{
+	width: 175px;
+	background-color: #035FA2;
+	color: white;
+}
+
+		/* Menu Horizontal */
+
+#navHori{
+	text-align: center;
+	list-style-type: none;
+	float: right;
+	transform: translate( 0,-10%);
+}
+
+#navHori a{
+	text-decoration: none;
+}
+
+.navP2{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px;
+	background-color: #035FA2;
+}
+
+.navP2 a{
+	display:block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px;
+	color: white;
+}
+
+.navS2 a{
+	display:block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+		
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;	
+}
+
+.navS2{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px;
+	background-color: #3491C2;
+
+}
+
+.navS2 a:hover{
+	background-color: #035FA2;
+	color: white;
+}
+
+/*  Corps de page  géneral*/
+
+main{
+	min-height: 600px;
+	padding-top: 70px;
+}
+
+.titre{
+	text-align: center;
+	color: #0088CB;
+	font-weight: 400;
+	font-size: 300%;
+}
+
+/* Footer */
+footer{
+	width: 1000px;
+	height: 50px;
+	margin-top: 30px;
+}
+
+footer p{
+	margin-left: 750px;
+	color: #969A9C;
+}

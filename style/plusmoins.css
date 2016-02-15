@@ -1,0 +1,61 @@
+#plusmoins
+{
+	width: 700px;
+	height: 400px;
+	background: url(../image/body.png);
+}
+
+#hplus
+{
+	background: url(../image/header.png);
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.2em;
+	color: white;
+}
+
+#expli 
+{
+	margin-top: 20px;
+	text-align: justify;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form
+{
+	width: 480px;
+	margin: auto;
+}
+
+#message
+{
+	margin-left: 315px;
+	color: red;
+	font-weight: bold;
+}
+
+#historique
+{
+	margin: 10px;
+	border: 1px solid black;
+	width: 175px;
+	height: 160px;
+	border-radius: 5px;
+	text-align: center;
+	overflow : auto;
+}
+
+.vous
+{
+	color: green;
+}
+
+.IA
+{
+	color: blue;
+}
+
+.zonetext{background-color: transparent;
+}

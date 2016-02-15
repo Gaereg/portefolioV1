@@ -1,0 +1,91 @@
+#pendu {
+margin: auto; /*centrer le contenu*/
+background: url("../image/body.png");
+width: 700px;
+height: 700px;
+}
+
+#hpendu h1{
+color: #AB4431;
+padding:50px;
+width:800px;
+}
+
+section {
+padding:0;
+}
+#entrer{
+text-align:center;
+padding:10px;
+}
+#bouton {
+height:30px;
+color: rgb(211,205,183);
+border-radius:50%;
+background-color:rgb(245,246,255);
+}
+figure{
+margin:auto;
+position:relative;
+}
+::-webkit-scrollbar
+{
+	display:none;
+}
+
+#texte {
+padding-top:30px;
+padding-bottom:30px;
+padding-left:10px;
+padding-right:10px;
+
+position:relative;
+margin:auto;
+max-width:293px;
+/*background-color: rgb(247,247,247);*/
+border-color: #58ACFA;
+color: black;
+text-align: center;
+max-height:200px;
+overflow:scroll;
+}
+
+.mach {
+position:static;
+display:block;
+margin:auto;
+
+}
+
+#lettre{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px black solid;
+	width: 20px;
+}
+
+#tableau{
+	margin: auto;
+}
+
+#canvas{
+	/*background-color:rgb(247,247,247);*/
+}
+
+#perdu{
+	width: 98%;
+	height: 300px;
+	margin-top: -50%;
+	background-color: rgba(255, 0, 0, 0.7);
+	font-size: 3em;
+	visibility: hidden;
+}
+
+#gagne{
+	width: 98%;
+	height: 300px;
+	margin-top: -50%;
+	background-color: rgba(255, 0, 0, 0.7);
+	font-size: 3em;
+	visibility: hidden;
+}

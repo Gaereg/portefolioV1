@@ -1,0 +1,224 @@
+/* Home */
+
+/*Ligne 1 */
+#ligne1{
+	width: 910px;
+	height: 327px;
+	margin: auto;
+}
+
+#hModelisation{
+	float: left;
+}
+
+#hModelisation a{
+	text-decoration: none;
+}
+
+#hModelisation a:hover + #hTModelisation{
+	
+	background-color: #0088CB;
+	
+}
+
+#hTModelisation{
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #035FA2;
+	font-size: 140%;
+	transform: translate( 0,-55%);
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;	
+}
+
+#hTModelisation:hover{
+	background-color: #0088CB;
+}
+
+#hTModelisation h1{
+	color: white;
+	font-size: 220%;
+	font-weight: 400;
+}
+
+#hCV{
+	width: 180px;
+	height: 255px;
+	line-height: 255px;
+	text-align: center;
+	background-color: black;
+	float: right;
+	opacity: 0.59;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+}
+
+#hCV a{
+	display: block;
+	width: 180px;
+	text-decoration: none;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+}
+
+#hCV a h1{
+	color: white;
+	font-size: 220%;
+	font-weight: 400;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+}
+
+#hCV:hover{
+	opacity: 0.78;
+	color: #0088CB
+}
+
+#hCV a h1:hover{
+	color: #0088CB;
+}
+
+/* Linge 2 */
+#ligne2{
+	width: 910px;
+	height: 300px;
+	margin: auto;
+}
+#hInfographie{
+	height: 265px;
+	width: 700px;
+	float: right;
+}
+#hInfographie img{
+	float: right;
+}
+
+#hTInfographie a{
+	text-decoration: none;
+}
+
+#hInfographie a:hover ~ #hTInfographie{
+		background-color: #0088CB;
+}
+
+#hTInfographie{
+	float: right;
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #035FA2;
+	font-size: 140%;
+	transform: translate( 0, -365%);
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;	
+}
+
+#hTInfographie:hover{
+	background-color: #0088CB;
+}
+
+#hTInfographie h1{
+	color: white;
+	font-size: 220%;
+	font-weight: 400;
+}
+
+#hContact{
+	width: 180px;
+	height: 255px;
+	line-height: 255px;
+	text-align: center;
+	background-color: black;
+	float: left;
+	opacity: 0.59;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+}
+
+#hContact a{
+	display: block;
+	width: 180px;
+	text-decoration: none;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+}
+
+#hContact a h1{
+	color: white;
+	font-size: 220%;
+	font-weight: 400;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+}
+
+#hContact:hover{
+	opacity: 0.78;
+	color: #0088CB
+}
+
+#hContact a h1:hover{
+	color: #0088CB;
+}
+
+/* Ligne 3 */
+#hProg{
+	width: 910px;
+	height: 80px;
+	background-color: #035FA2;
+	font-size: 140%;
+	margin: auto;
+	line-height: 80px;
+	text-align: center;
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;	
+}
+
+#hProg:hover{
+	background-color: #0088CB;
+}
+
+#hProg h1{
+	color: white;
+	font-size: 220%;
+	font-weight: 400;
+	width: 909px;
+	position: absolute;	
+	text-align: center;
+}
+
+#hProg a{
+	display: block;
+	width: 910px;
+	height: 80px;
+	text-decoration: none;
+}

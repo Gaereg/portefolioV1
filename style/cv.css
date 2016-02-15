@@ -1,0 +1,36 @@
+#tofbio{
+	float: left;
+	border: 2px white solid;
+	width: 260px;
+	border-radius: 5px;
+	margin-right: 60px;
+}
+
+#bio{
+	width: 900px;
+	height: 400px;
+	margin: auto;
+	text-align: justify;
+}
+
+#bio h1{
+	color: #0088CB;
+	font-weight: 400;
+	font-size: 300%;
+}
+
+#bio p {
+	color: white;
+	width: 850px;
+	margin-top: 20px;
+}
+
+#bio p span{
+	font-weight: bold;
+	color: white;
+	font-size: 120%
+}
+
+a{
+	text-decoration: none;
+}

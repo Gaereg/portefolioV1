@@ -1,0 +1,73 @@
+#mainProg{
+	height: 2000px;
+}
+
+.progline{
+	margin-top: 30px;
+	width: 1000px;
+	height: 400px;
+}
+
+.progdescript{
+	width: 290px;
+	float: right;
+	color: white;
+}
+
+.progdescript h2{
+	color: white;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.progdescript p{
+	color: grey;
+	font-size: 85%;
+	text-align: justify;
+	font-weight: 500;
+	font-family: 'open', sans-serif;
+}
+
+.progdescript a{
+	color: white;
+	text-decoration: none;
+}
+
+.code{
+	font-size: 70%;
+	font-style: italic;
+}
+
+#plusmoins{
+	float: left;
+}
+
+.progline2{
+	margin-top: 30px;
+	width: 1000px;
+	height: 700px;
+}
+
+#pendu{
+	float: left;
+}
+
+.progline3{
+	margin-top: 30px;
+	width: 1000px;
+	height : 255px;
+}
+
+#conversion{
+	float: left;
+}
+
+.progline4{
+	margin-top: 30px;
+	width: 1000px;
+	height: 400px;
+}
+
+#autocompletion{
+	float: left;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<!--Meta-->
+		<meta charset="UTF-8">
+		<meta name="author" content="Mathieu LARRIEU">
+		<meta name="description" content="Portefolio">
+		<!--link-->
+		<link rel="stylesheet" href="../style/all.css">
+		<link rel="stylesheet" href="../style/contact.css">
+		<script src="../style/gallery.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Jura:400' rel='stylesheet' type='text/css'>
+		<!--Titre-->
+		<title>Mathieu Larrieu</title>
+	</head>	
+	
+	<body onload="init();">
+			<header>
+				<div id="name">
+					<div id="nameAlign">
+						<a href="../index.html"><h1>Mathieu Larrieu</h1></a>
+						<h3>Intégrateur Web en Formation</h3>
+					</div>
+				</div>
+				
+				<nav>
+					<ul id=navVerti>
+						<li class="navS"><a href="programmation.html">Programmation</a></li>
+						<li class="navS"><a href="infographie.html">Infographie</a></li>
+						<li class="navS"><a href="modelisation.html">Modélisation</a></li>
+						<li class="navS"><a href="../index.html">Home</a></li>
+					</ul>
+					
+					<ul id="navHori">
+						<li class="navP2"><a href="contact.html">Contact</a></li>
+						<li class="navS2"><a href="cv.html">CV</a></li>
+					</ul>
+				</nav> 
+			</header>
+			
+			<main>
+				<div id="mail">
+					<h1 class="titre">Contactez-moi</h1>
+					<p>larrieu.mathieu.v@gmail.com</p>
+				</div>
+				
+				<form action="../style/contact.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
+					<p>Nom</p>
+					<input class="text" type="text" name="nom" />
+					<p>Email</p>
+					<input class="text" type="text" name="mail" />
+					<p>Objet</p>
+					<input class="text" type="text" name="objet" />
+					<p>Message</p>
+					<textarea class="textar" name="message" rows=5 cols=30></textarea>
+					<input class="valide" type="submit" value="Envoyer">
+				</form>
+			</main>
+			
+			<footer>
+				<p>&copy; 2014 by Mathieu Larrieu</p>
+			</footer>
+		
+			
+	</body>
+</html>
